@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker": "node --loader ts-node/esm docker/start.ts --input-type=module",
+    "seed": "prisma migrate dev",
+    "stop": "node --loader ts-node/esm docker/stop.ts --input-type=module"
   },
   "dependencies": {
     "@prisma/client": "4.0.0",
