@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docker": "node --loader ts-node/esm start.ts",
+    "docker": "node --loader ts-node/esm docker.ts",
+    "start": "node --loader ts-node/esm start.ts",
     "stop": "node --loader ts-node/esm stop.ts"
   },
   "devDependencies": {
