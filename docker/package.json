@@ -6,7 +6,8 @@
   "scripts": {
     "docker": "node --loader ts-node/esm docker.ts",
     "start": "node --loader ts-node/esm start.ts",
-    "stop": "node --loader ts-node/esm stop.ts"
+    "stop": "node --loader ts-node/esm stop.ts",
+    "reset": "node --loader ts-node/esm reset.ts"
   },
   "devDependencies": {
     "@types/node": "^18.0.6",
